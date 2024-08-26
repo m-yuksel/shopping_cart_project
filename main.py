@@ -70,8 +70,7 @@ if __name__ == "__main__":
     tax_total = calculate_tax_total(products)
     grand_total = subtotal + tax_total
 
-    print("
---- Totals Without Coupons ---")
+    print("\n--- Totals Without Coupons ---")
     print_totals(subtotal, tax_total, grand_total)
 
     # Apply coupons and recalculate totals
@@ -80,6 +79,5 @@ if __name__ == "__main__":
     tax_total = calculate_tax_total(products)
     grand_total = subtotal + tax_total
 
-    print("
---- Totals With Coupons Applied ---")
+    print("\n--- Totals With Coupons Applied ---")
     print_totals(subtotal, tax_total, grand_total)
